@@ -20,7 +20,14 @@
 		2D76C93F28DAFEFD00A56E99 /* Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D76C93E28DAFEFD00A56E99 /* Mine.swift */; };
 		2D76C94128DB0A7C00A56E99 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D76C94028DB0A7C00A56E99 /* HomeModel.swift */; };
 		2D76C94328DB0AD800A56E99 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D76C94228DB0AD800A56E99 /* HomeViewModel.swift */; };
-		2D76C94528DB165000A56E99 /* ScrollCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D76C94428DB165000A56E99 /* ScrollCard.swift */; };
+		2D76C94528DB165000A56E99 /* HomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D76C94428DB165000A56E99 /* HomeCard.swift */; };
+		BE66310E28EEBDA10084D993 /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66310D28EEBDA10084D993 /* FindView.swift */; };
+		BE66311228EEBDD80084D993 /* NearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66311128EEBDD80084D993 /* NearView.swift */; };
+		BE66311428EEBECC0084D993 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66311328EEBECC0084D993 /* FocusView.swift */; };
+		BE66311628EEC1500084D993 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66311528EEC1500084D993 /* UIView+Extension.swift */; };
+		BE66311828EED3AE0084D993 /* FocusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66311728EED3AE0084D993 /* FocusCard.swift */; };
+		BE66311A28F0528D0084D993 /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66311928F0528D0084D993 /* ChannelView.swift */; };
+		BE66311C28F053FF0084D993 /* ChannelTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE66311B28F053FF0084D993 /* ChannelTopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +65,14 @@
 		2D76C93E28DAFEFD00A56E99 /* Mine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mine.swift; sourceTree = "<group>"; };
 		2D76C94028DB0A7C00A56E99 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		2D76C94228DB0AD800A56E99 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		2D76C94428DB165000A56E99 /* ScrollCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCard.swift; sourceTree = "<group>"; };
+		2D76C94428DB165000A56E99 /* HomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCard.swift; sourceTree = "<group>"; };
+		BE66310D28EEBDA10084D993 /* FindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
+		BE66311128EEBDD80084D993 /* NearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearView.swift; sourceTree = "<group>"; };
+		BE66311328EEBECC0084D993 /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		BE66311528EEC1500084D993 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		BE66311728EED3AE0084D993 /* FocusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCard.swift; sourceTree = "<group>"; };
+		BE66311928F0528D0084D993 /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
+		BE66311B28F053FF0084D993 /* ChannelTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +159,14 @@
 				2D76C93A28DAFEE000A56E99 /* Home.swift */,
 				2D76C94028DB0A7C00A56E99 /* HomeModel.swift */,
 				2D76C94228DB0AD800A56E99 /* HomeViewModel.swift */,
-				2D76C94428DB165000A56E99 /* ScrollCard.swift */,
+				2D76C94428DB165000A56E99 /* HomeCard.swift */,
+				BE66310D28EEBDA10084D993 /* FindView.swift */,
+				BE66311928F0528D0084D993 /* ChannelView.swift */,
+				BE66311B28F053FF0084D993 /* ChannelTopView.swift */,
+				BE66311328EEBECC0084D993 /* FocusView.swift */,
+				BE66311728EED3AE0084D993 /* FocusCard.swift */,
+				BE66311528EEC1500084D993 /* UIView+Extension.swift */,
+				BE66311128EEBDD80084D993 /* NearView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -296,12 +317,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE66311828EED3AE0084D993 /* FocusCard.swift in Sources */,
 				2D76C93F28DAFEFD00A56E99 /* Mine.swift in Sources */,
-				2D76C94528DB165000A56E99 /* ScrollCard.swift in Sources */,
+				BE66311628EEC1500084D993 /* UIView+Extension.swift in Sources */,
+				BE66311A28F0528D0084D993 /* ChannelView.swift in Sources */,
+				2D76C94528DB165000A56E99 /* HomeCard.swift in Sources */,
+				BE66311228EEBDD80084D993 /* NearView.swift in Sources */,
+				BE66311C28F053FF0084D993 /* ChannelTopView.swift in Sources */,
 				2D76C93D28DAFEF100A56E99 /* Center.swift in Sources */,
 				2D76C93628DAFE7500A56E99 /* TabBar.swift in Sources */,
 				2D76C94328DB0AD800A56E99 /* HomeViewModel.swift in Sources */,
+				BE66310E28EEBDA10084D993 /* FindView.swift in Sources */,
 				2D76C94128DB0A7C00A56E99 /* HomeModel.swift in Sources */,
+				BE66311428EEBECC0084D993 /* FocusView.swift in Sources */,
 				2D76C90428DAFD1400A56E99 /* AppDelegate.swift in Sources */,
 				2D76C93B28DAFEE000A56E99 /* Home.swift in Sources */,
 				2D76C90628DAFD1400A56E99 /* SceneDelegate.swift in Sources */,

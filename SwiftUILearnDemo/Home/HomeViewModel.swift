@@ -10,7 +10,7 @@ import Combine
 
 class HomeListStore: ObservableObject {
     // 列表数据
-    let didChange = PassthroughSubject<Void, Never>()
+//    let didChange = PassthroughSubject<Void, Never>()
     
     @Published var lists:[HomeListModel] = []
     

@@ -18,7 +18,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: TabBar())
+//            window.rootViewController = UIHostingController(rootView: TabBar()) //常规的
+            window.rootViewController = UIHostingController(rootView: Home()) // 自定义的
             self.window = window
             window.makeKeyAndVisible()
         }
